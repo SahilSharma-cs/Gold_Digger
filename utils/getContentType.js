@@ -3,6 +3,7 @@ export function getContentType(ext) {
   const types = {
     ".js": "text/javascript",
     ".css": "text/css",
+    ".mjs": "text/javascript",
     ".json": "application/json",
     ".png": "image/png",
     ".jpg": "image/jpeg",
